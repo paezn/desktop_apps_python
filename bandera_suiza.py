@@ -42,8 +42,6 @@ frame_blanco2 = Frame(ventana_principal)
 frame_blanco2.config(bg="white", width=300, height=100)
 frame_blanco2.place(x=100, y=200)
 
-
-
 # run
 # se ejecuta el metodo mainloop() de la clase Tk() a través de la instancia ventana_principal. Este metodo despliega la ventana en pantalla y queda a la espera de lo que el usuario haga (click en un boton, escribir, etc).  Cada acción del usuario se conoce como un evento.  El método mainloop() es un bucle infinito.
 ventana_principal.mainloop()
